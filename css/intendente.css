@@ -4,6 +4,13 @@
    una apariencia única, accesible y responsiva para #intendencia-banner.
 */
 
+#intendencia-banner {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
 /* Asegurar que el pseudo-elemento global no afecte a este banner */
 #intendencia-banner .banner::before {
     content: none !important;
@@ -60,7 +67,7 @@
     color: rgba(255,255,255,0.95) !important;
     margin: 0.25rem 0 0.75rem 0 !important;
     text-align: center !important;
-    max-width: 900px !important;
+    max-width: 100% !important;
     z-index: 1 !important;
 }
 
