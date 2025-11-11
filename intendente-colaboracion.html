@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Colaboración del Intendente — Renca Market</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body{font-family:'Inter',sans-serif;margin:0;padding:2rem;background:#f8fafc;color:#1e293b}
+        .container{max-width:900px;margin:0 auto;background:#fff;padding:2rem;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+        h1{color:#2563eb;margin-top:0}
+        .hero{display:flex;gap:1.5rem;align-items:center}
+        .hero img{width:120px;height:120px;object-fit:cover;border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+        .btn{display:inline-block;padding:0.75rem 1.25rem;background:#2563eb;color:#fff;border-radius:8px;text-decoration:none;font-weight:600}
+        .muted{color:#64748b}
+        .meta{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+        .placeholder{background:#f1f5f9;padding:1rem;border-radius:8px;border:1px dashed #cbd5e1}
+        .pdf-link{display:block;margin-top:1rem}
+        @media(max-width:600px){.hero{flex-direction:column;align-items:flex-start}.meta{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="btn" style="margin-bottom:1rem;display:inline-block">← Volver al inicio</a>
+        <h1>Colaboración del Intendente</h1>
+        <div class="hero">
+            <img src="intendente.jpg" alt="Foto del Intendente">
+            <div>
+                <p class="muted">Esta página describe cómo los intendentes pueden auspiciar la creación de páginas web gratuitas para los emprendedores de su localidad. Mantendremos el nombre del intendente "sin nombre" hasta que usted nos proporcione los datos oficiales.</p>
+                <p style="margin-top:0.25rem"><strong>¿Qué incluye la colaboración?</strong></p>
+                <ul>
+                    <li>Creación de la página web del emprendedor (plantilla básica y publicación).</li>
+                    <li>Soporte inicial para subir contenido y fotos.</li>
+                    <li>Visibilidad en el marketplace local con enlace al sitio municipal y redes del intendente (si así lo desean).</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 style="margin-top:1.25rem">Datos del auspicio (placeholders)</h2>
+        <div class="meta">
+            <div>
+                <div class="placeholder">
+                    <strong>Nombre del Intendente</strong>
+                    <p id="nombre-intendente">Intendente — Sin Nombre (reemplazar)</p>
+                </div>
+            </div>
+            <div>
+                <div class="placeholder">
+                    <strong>Foto</strong>
+                    <p>Reemplace <code>intendente.jpg</code> en la carpeta del sitio con la foto oficial del intendente.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-top:1rem">Enlaces que se incluirán (si el intendente los autoriza)</h3>
+        <div class="meta">
+            <div class="placeholder">
+                <strong>Web municipal</strong>
+                <p id="link-municipal">https://www.ejemplo-municipio.gob.ar (placeholder)</p>
+            </div>
+            <div class="placeholder">
+                <strong>Redes sociales</strong>
+                <p id="redes">Instagram / Facebook / Twitter — (agregar enlaces)</p>
+            </div>
+        </div>
+
+        <div style="margin-top:1.5rem;">
+            <h3 style="color:#2563eb">¿Cómo enviar tus datos?</h3>
+            <p style="color:#64748b;margin-bottom:1rem">Elige la opción que prefieras:</p>
+            
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap">
+                <a href="https://wa.me/5492664024390" target="_blank" class="btn" style="background:#25D366">
+                    <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                </a>
+                <a href="assets/formulario-intendente.pdf" download class="btn" style="background:#10b981">
+                    <i class="fas fa-file-pdf"></i> Descargar formulario PDF
+                </a>
+                <a href="index.html" class="btn">← Volver al Marketplace</a>
+            </div>
+            
+            <p style="color:#64748b;margin-top:1rem;font-size:0.9rem">
+                * Puedes enviar el formulario PDF completo por WhatsApp al mismo número: +54 9 266 402-4390
+            </p>
+        </div>
+    </div>
+</body>
+</html>
